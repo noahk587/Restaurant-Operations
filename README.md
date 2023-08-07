@@ -1,4 +1,9 @@
-# 10.15 Restaurant Operations
+# 10.15 Restaurant Operations  
+
+Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was XCode and compiler was Clang with gcc capability. Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation. Code has modifation which includes a user prompt.  
+
+
+## Instructions
 This assignment mimics the configuration and activities happen at a typical restaurant. Configuration data is in config.txt. Configuration file contains the table information & the full menu list.   We will use the following classes to complete this assignment. Feel free to add more variables if needed. Avoid making drastic changes to existing variables. You need to define the classes and implement all the .cpp/.h files including class implementation and the overall application functionality.
 Read the configuration file and create the necessary objects / array of objects, then proceed to read the activities from the user and process them one at a time. Do not use any advanced data structures (STLs like vectors) that have not been covered in the class.   Sample configuration file (config.txt)
 
