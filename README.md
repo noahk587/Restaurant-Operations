@@ -1,6 +1,6 @@
 # 10.15 Restaurant Operations  
 
-Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was XCode and compiler was Clang with gcc capability. Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation. Code has modifation which includes a user prompt.  
+Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was Xcode and compiler was Clang with gcc capability. Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation. Code has modifation which includes a user prompt.  
 
 
 ## Instructions
@@ -160,7 +160,7 @@ Party of 2 assigned to table 5
 
 Party of 1 assigned to table 1
 
-C    //cannot be read as number - close the program!
+C    (cannot be read as number - close the program!)
 
  
 As you can see in the sample input & output, you should recognize the error conditions and output them.
