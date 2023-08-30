@@ -1,11 +1,13 @@
 # 10.15 Restaurant Operations  
 
-Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was Xcode and compiler was Clang with gcc capability. Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation. Code has modifation which includes a user prompt.  
+Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was Xcode and compiler was Clang. The program is also compatible with GNU Compiler Collection (GCC). Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation for restaurant operations. The program requires the filename entered is correct, otherwise you need to terminate the program and recompile. Code has modifation which includes a user prompt which wasn't included in the assignment submission.  
 
 
 ## Instructions
 This assignment mimics the configuration and activities happen at a typical restaurant. Configuration data is in config.txt. Configuration file contains the table information & the full menu list.   We will use the following classes to complete this assignment. Feel free to add more variables if needed. Avoid making drastic changes to existing variables. You need to define the classes and implement all the .cpp/.h files including class implementation and the overall application functionality.
 Read the configuration file and create the necessary objects / array of objects, then proceed to read the activities from the user and process them one at a time. Do not use any advanced data structures (STLs like vectors) that have not been covered in the class.   Sample configuration file (config.txt)
+
+---
 
 16 Menu: Listing of the full menu: item code, name, price 
 
@@ -82,8 +84,11 @@ S3 Berry_Acqua_Fresca 2.88
 
 50 20
 
+---
+
 Here is some sample input & output to capture the functionality of the program:
 
+---
 1 P2
 
 Party of 2 assigned to Table 1
@@ -162,6 +167,7 @@ Party of 1 assigned to table 1
 
 C    (cannot be read as number - close the program!)
 
+---
  
 As you can see in the sample input & output, you should recognize the error conditions and output them.
 * Do not allow orders from table with no party assigned to it.
