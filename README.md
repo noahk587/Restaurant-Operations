@@ -1,6 +1,6 @@
 # 10.15 Restaurant Operations  
 
-Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was Xcode and compiler was Clang. The program is also compatible with GNU Compiler Collection (GCC). Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation for restaurant operations. The program requires the filename entered is correct, otherwise you need to terminate the program and recompile. Code has modifation which includes a user prompt which wasn't included in the assignment submission.  
+Designed in CS 1337.006.S21 using the C++ programming language. The IDE used was Xcode and compiler was Clang. The program is also compatible with GNU Compiler Collection (GCC). Program reads the menu and table information from a .txt file. Program is run in a hostess/waiter’s perspective. User assign guests into tables, place orders, and calculate the bill for the table. Program does have input validation for restaurant operations. For example, user can't seat a party to a table that accomodate everyone. The program requires the filename entered is correct, otherwise you need to terminate the program and recompile. Code has modifation which includes a user prompt which wasn't included in the assignment submission.  
 
 
 ## Instructions
